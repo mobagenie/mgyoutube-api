@@ -12,15 +12,21 @@ Json Response :
 Basic Json :
 
 iBuTEywEQ6U = Video ID
+
 c = Country
+
 p  Position
 
 Extended Json :
 
 iCo = Video ID
+
 vTCo = Video Title in base64 encode. 
+
 cCo = Country Count Total
+
 pCo = Position Count Total
+
 cTCo = Cached Time timestamp ( we only update data one time / day ). you can convert to ex 2023-02-01 18.15.00 with built in php, js or node js.
 
 we limit data only for top 50 global.
